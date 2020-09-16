@@ -1,0 +1,262 @@
+
+:ASM
+
+
+--End assembly, 2350 bytes, Errors: 0 
+
+
+Symbol table - alphabetical order:
+
+   A5      =$6D     ?  ACT:PCDA=$28     ?  ADDSYM  =$8049   ?  ARG     =$34
+?  ASC:WRK =$02E5   ?  AUTODN  =$0292      BASE    =$45     ?  BASL    =$D1
+?  BAUDOF  =$0299   ?  BEG:STK =$02D4   ?  BELL1X  =$9946   ?  BIN:WRK =$02E2
+?  BITNUM  =$0298   ?  BKGND   =$D021   ?  BLNON   =$CF     ?  BLNSW   =$CC
+?  BORDER  =$D020      BPOINT  =$02B1   ?  BSAVE   =$3B     ?  CALL    =$5E
+?  CALL:A  =$02B2   ?  CALL:P  =$02B1   ?  CALL:X  =$02B3   ?  CALL:Y  =$02B4
+   CH      =$D3     ?  CHAR    =$8025   ?  CHK:ARY =$51     ?  CHKIN   =$FFC6
+?  CHKOUT  =$FFC9   ?  CHKTKN  =$8034      CHRIN   =$FFCF   ?  CHROUT  =$FFD2
+?  CIA1    =$DC00   ?  CIA2    =$DD00   ?  CINT    =$FF81   ?  CINV    =$0314
+?  CLALL   =$FFE7   ?  CLOSE   =$FFC3   ?  CLRCHN  =$FFCC      CMP:END =$BC5E
+   CMP:END9=$BC68   ?  CNTR    =$02BB   ?  COLL:REG=$6E     ?  COLOR   =$0286
+?  COMSTL  =$8019   ?  COUNT   =$60     ?  COUNT1  =$02A7   ?  COUNT2  =$02A8
+   COUT    =$FFD2      CR      =$0D        CROUT   =$806D      CRSW    =$D0
+   CTRLC:RT=$54     ?  CURR:CHR=$02CB   ?  DATA    =$47     ?  DATAREG =$DD01
+   DATTYP  =$6C     ?  DBGFLG  =$67     ?  DBGTYP  =$66     ?  DCODE   =$31
+?  DDRB    =$DD03   ?  DEBUG   =$993D      DEC:FROM=$BC53      DEC:TO  =$BC46
+   DEC:TO:9=$BC50   ?  DEF:PCD =$02EF   ?  DEFP    =$68     ?  DEFS    =$6A
+   DEL     =$B3CB      DEL:20  =$B6E0      DEL:45  =$B717      DEL:50  =$B72E
+   DEL:52  =$B732      DEL:55  =$B74A      DEL:60  =$B755      DEL:ERR1=$B3AE
+   DEL:QN1 =$B3BC      DEL:QN2 =$B3C4      DELETE  =$B6DA      DELIMIT =$800F
+?  DEST    =$06        DFLTN   =$99     ?  DIGIT   =$21        DIS:0   =$B8CD
+   DIS:0A  =$B8D2      DIS:1   =$B8D5      DIS:15  =$B8BF      DIS:16  =$B9CA
+   DIS:16J =$B8F9      DIS:17  =$B9D0      DIS:2   =$B8DB      DIS:20  =$B9D2
+   DIS:2A  =$B8FC      DIS:2AB =$B90B      DIS:2C  =$B8F1      DIS:3   =$B914
+   DIS:35  =$B920      DIS:35A =$B928      DIS:36  =$B941      DIS:36A =$B937
+   DIS:4   =$B9B5      DIS:40  =$B95F      DIS:45  =$B974      DIS:4A  =$BA64
+?  DIS:5   =$B899   ?  DIS:5:OK=$B89E      DIS:60  =$B97D      DIS:70  =$B94F
+   DIS:80  =$B9AD      DIS:RTS =$B8BE      DIS:WR1 =$B8BB      DIS:WRAP=$B8B0
+?  DISHX   =$802B   ?  DISK:CHN=$8011   ?  DISPAD  =$806A   ?  DISPL   =$2A
+   DISPLAY =$B897   ?  DIVISOR =$02D9   ?  DOS:FLG =$6C        DSP:BIN =$9934
+?  DSPWRK  =$40     ?  DVDN    =$02DC      ECNTR   =$02B1      ED:COM  =$02BE
+   ED:TBL  =$B449      EDITOR  =$B46B   ?  ENABRS  =$02A1   ?  END:PCD =$56
+   ENDSYM  =$32     ?  EOF     =$1A        EPNTR   =$43     ?  ERR:RTN =$0B
+?  ERRNO   =$38     ?  ERROR   =$802E      FE:10   =$B623      FE:15   =$B629
+   FE:5    =$B615   ?  FF      =$0C        FIND:END=$B60B      FIND:LN =$B5CE
+?  FIRST   =$65     ?  FIXAD   =$804F      FL:10   =$B5F3      FL:15   =$B5FC
+   FL:5    =$B5EC      FL:LOOP =$B5E9   ?  FLAG    =$DD0D   ?  FNC:VAL =$02C0
+   FND     =$BA14      FND:END =$B9DE      FND:END2=$BA03   ?  FND:ENQ =$8079
+   FND:ERR1=$B446      FND:FLG =$02F3      FND:FROM=$02C2      FND:LEN =$02F4
+   FND:POS =$02C4      FND:RTS =$BA02      FND:TO  =$02C3   ?  FRAME   =$23
+   FRM:ADDR=$BAD3      FROM    =$4E        FROM:ST =$02BA      FULL:ERR=$B3B1
+?  FUNCTION=$4B     ?  GEN2:B  =$8028   ?  GENADR  =$803A   ?  GENNJM  =$8040
+?  GENNJP  =$803D   ?  GENNOP  =$8037      GET1    =$BC91      GET4    =$BC8D
+   GET7:A  =$BC73      GET:3   =$BC9F      GET:C1  =$B47F      GET:COM =$B473
+   GET:ERR1=$B396   ?  GET:HEX =$8076      GET:LIN8=$B4EB      GET:LIN9=$B4E1
+   GET:LINE=$B4CF      GET:NO  =$B58F      GET:NO:2=$B59D      GET:NO:5=$B5B2
+   GET:NUM =$8073      GETANS  =$8064   ?  GETCHK  =$8031   ?  GETIN   =$FFE4
+   GETLN   =$BC76      GETLN1  =$BC76      GETLNZ  =$BC76   ?  GETNEXT =$8016
+   GETR:10 =$BA6F      GETR:15 =$BA75      GETR:16 =$BA83      GETR:20 =$BA8D
+   GETR:22 =$BA9B      GETR:25 =$BAA1      GETR:30 =$BAB6      GETR:31 =$BABA
+   GETR:5  =$BA65      GETRANGE=$BA5D      GLB:FLAG=$02F7      GT:NO:EM=$B393
+   GT:NO:ER=$B5A9      HELP    =$B4B2      HELP:1  =$B3D4   ?  HELP:10 =$B444
+?  HELP:2  =$B3D5   ?  HELP:3  =$B3E8   ?  HELP:4  =$B3E9   ?  HELP:5  =$B3EB
+?  HELP:5A =$B3F7   ?  HELP:6  =$B408   ?  HELP:7  =$B413   ?  HELP:8  =$B41F
+?  HELP:9  =$B42B   ?  HELP:9A =$B42D   ?  HEX:WK  =$02CC   ?  HIBASE  =$0288
+?  HIMEM   =$0283   ?  HOME    =$807F      IN:10   =$B4FB      IN:11   =$B508
+   IN:13   =$B57E   ?  IN:2    =$B4F0      IN:22   =$B523      IN:5    =$B4F8
+   IN:LGTH =$02B7      INBUF   =$033C      INC:5   =$B6B9      INC:C:5 =$B6B2
+   INC:ECNTR=$B6AA      INC:FROM=$BC38      INC:PNTR=$B6B3      INC:TO  =$BC3F
+?  INCHAR  =$02C7      INDX    =$C8     ?  INIT    =$8013      INSERT  =$B4F0
+   INST:TXT=$B53E   ?  INT:RTN =$02F8   ?  INT:TEMP=$02FA   ?  INT:TMP1=$02FB
+?  INT:TMP2=$02FC   ?  INTERJ  =$A380   ?  IO:A    =$02C8   ?  IO:X    =$02CA
+?  IO:Y    =$02C9   ?  IOINIT  =$FF84      ISITAL  =$801F   ?  ISITHX  =$801C
+   ISITNM  =$8022   ?  KBD:BUF =$0277   ?  LASTP   =$02C5   ?  LEFTCOL =$5A
+   LENGTH  =$02B8   ?  LEVEL   =$25     ?  LF      =$0A     ?  LHB     =$800C
+   LINE:CNT=$02        LINE:NO =$02        LIS:10  =$B79D      LIS:20  =$B7A3
+   LIS:31  =$B7B3      LIS:33  =$B7B9      LIS:33A =$B7C7      LIS:34  =$B7DB
+   LIS:34A =$B7E9      LIS:35  =$B7F0      LIS:36  =$B7F4      LIS:37  =$B804
+   LIS:38  =$B81F      LIS:38A =$B834      LIS:38B =$B837      LIS:39  =$B83A
+   LIS:45  =$B857   ?  LIS:46  =$B858   ?  LIS:47  =$B866      LIS:48  =$B874
+   LIS:49  =$B87D      LIS:5   =$B782      LIS:50  =$B889      LIS:55  =$B892
+   LIS:ERR =$B886   ?  LIST    =$1B        LISTLNS =$B773   ?  LNCNT   =$61
+?  LOAD    =$FFD5   ?  LS      =$62        LT:1000 =$BA3C      LXSP    =$C9
+?  MASK    =$6D     ?  MAX:STK =$20        MCAND   =$02D9   ?  MEMTOP  =$FF99
+   MOD:10  =$B6C0      MOD:20  =$B6D2      MOD:QN1 =$B3B4      MODIFY  =$B6BA
+   MV:10   =$B64D      MV:5    =$B635      MV:TXT:L=$B632      MV:TXT:R=$B657
+   MVR:10  =$B693      MVR:5   =$B67B   ?  NEW:STK =$FF        NLIST   =$B4AA
+   NLN:FLAG=$02F1   ?  NOTRSV  =$22        NUM:LINS=$02BC      NXTCHR  =$1C
+?  OFFSET  =$2C     ?  OPEN    =$FFC0   ?  OPND    =$2E     ?  P       =$26
+   P1      =$8013      P2      =$8DD4      P3      =$992E      P4      =$A380
+   P5      =$B384   ?  P6      =$BCB8   ?  P:STACK =$CED0   ?  PAUSE   =$807C
+   PC      =$8058      PCODE   =$26     ?  PCSVD   =$63     ?  PFLAG   =$42
+   PL      =$805E   ?  PLOT    =$FFF0      PNTR    =$26     ?  PNTR:HI =$02B6
+?  PR:CHAN =$8010   ?  PRCITM  =$3E     ?  PROMPT  =$35        PRT:HELP=$B4BB
+?  PSHWRK  =$8052      PT      =$805B      PT:FIN  =$BA57      PT:GO   =$BA4B
+   PT:LN:10=$BA21      PT:LN:NO=$BA1B   ?  PULWRK  =$8055      PUT:LINE=$BA26
+   PUT:NO  =$B762      PUTSP   =$8067      Q:FLAG  =$02F2      QT:SIZE =$02FE
+?  QT:TGL  =$02FD   ?  QUEUE   =$C6        QUOT:SYM=$800E   ?  RAMTAS  =$FF87
+?  RDKEY   =$8082   ?  READST  =$FFB7      REG     =$04        REG2    =$06
+?  REG2B   =$59        REGB    =$58     ?  REMAIN  =$02B5      REP:FROM=$02B3
+   REP:LEN =$02B5      REP:SIZE=$02F0      REP:TO  =$02B4   ?  RES     =$02D6
+   RESTART =$9931   ?  RESTOR  =$FF8A   ?  RHB     =$800D   ?  RMNDR   =$02DF
+?  RODBE   =$029E   ?  RODBS   =$029D   ?  ROWH    =$05     ?  ROWL    =$04
+   RPLCD   =$BA0A   ?  RTNADR  =$39        RTS1    =$BC3E      RUNNING =$49
+?  S:ACTIVE=$CF98   ?  S:ANIMCC=$CEE8   ?  S:ANIMCT=$CED8   ?  S:ANIMFM=$CEF0
+?  S:ANIMPS=$CEE0   ?  S:COUNT =$CFF0   ?  S:POINTR=$CEF8   ?  S:XINC  =$CFC8
+?  S:XPOS  =$CFA0   ?  S:YINC  =$CFE0   ?  S:YPOS  =$CFB8   ?  SAVCUR  =$02AB
+?  SAVE    =$FFD8      SCE:LIM =$4B     ?  SEARCH  =$8046   ?  SECRET  =$52
+?  SETLFS  =$FFBA   ?  SETMSG  =$FF90   ?  SETNAM  =$FFBD   ?  SHLVAL  =$8070
+?  SID     =$D400   ?  SID:IMG =$CF7C      SIGN    =$5B     ?  SPACE   =$20
+?  SPARE2  =$804C   ?  SPRITENO=$4C     ?  SRCE    =$04     ?  ST      =$90
+   ST:CMP  =$9937      ST:EDI  =$9940      ST:FIL  =$9943      ST:SYN  =$993A
+?  STACK   =$0100   ?  START   =$992E   ?  STK:AVL =$02CF   ?  STK:PAGE=$02D0
+?  STK:RT  =$02D2      STK:USE =$4D     ?  STK:WRK =$02D1      STOP    =$FFE1
+?  SYM:SIZE=$800B   ?  SYM:USE =$02A9   ?  SYMARG  =$06     ?  SYMDAT  =$08
+?  SYMDSP  =$04        SYMITM  =$4E     ?  SYMLEN  =$09     ?  SYMLVL  =$02
+?  SYMNAM  =$0A     ?  SYMPRV  =$00     ?  SYMSUB  =$06     ?  SYMTBL  =$0D
+?  SYMTYP  =$03     ?  SYNTAX  =$50        T       =$32        TEMP    =$5C
+?  TEMP1   =$02E0      TIDY    =$BB23      TIDY:AL =$BAE7      TIDY:BMP=$BBFD
+   TIDY:CH =$BB67      TIDY:CNT=$BC11      TIDY:CR =$BB7D      TIDY:DL2=$BBD3
+   TIDY:DL3=$BBCD      TIDY:DLE=$BBB1      TIDY:DNE=$BC1F      TIDY:E2 =$BBAD
+   TIDY:END=$BB97      TIDY:ENT=$BB29      TIDY:GQT=$BBF8      TIDY:IGN=$BC32
+   TIDY:LF =$BB6C      TIDY:NSP=$BB93      TIDY:NX1=$BB4D      TIDY:NXT=$BB3C
+?  TIDY:OK =$BB87      TIDY:QT =$BB75      TIDY:RS =$BB07      TIDY:RS1=$BB12
+   TIDY:RS2=$BB1E      TIDY:SP =$BBE6      TIDY:SPC=$BC07      TIDY:SPJ=$BB72
+?  TKNADR  =$17        TKNJMP  =$8E10      TKNLEN  =$19     ?  TKNWRK  =$8043
+?  TMP:PNTR=$32        TO      =$45        TO:ADDR =$BABF      TO:LINE =$02C0
+   TOKEN   =$16        TOKEN1  =$8061      TRN:FLAG=$02F6      TS      =$8009
+?  UC:FLAG =$02F5   ?  UNLSN   =$FFAE   ?  UNTKL   =$FFAB   ?  UNTLK   =$FFAB
+?  UPR:CASE=$4A        V1      =$8013      V2      =$8DD4      V3      =$992E
+   VAL:CMP =$53        VALUE   =$1E     ?  VIC     =$D000   ?  VOICENO =$4D
+?  WARM:STR=$0302   ?  WORK    =$3C     ?  WORKD   =$36        WRAP    =$BC69
+?  WX      =$08     ?  XPOSH   =$02C1   ?  XPOSL   =$02C0   ?  XSAVE   =$02D5
+?  YPOS    =$02C2      ZRO:CNTR=$B69F   
+
+
+Symbol table - numerical order:
+
+?  SYMPRV  =$00        LINE:CNT=$02        LINE:NO =$02     ?  SYMLVL  =$02
+?  SYMTYP  =$03        REG     =$04     ?  ROWL    =$04     ?  SRCE    =$04
+?  SYMDSP  =$04     ?  ROWH    =$05        REG2    =$06     ?  DEST    =$06
+?  SYMARG  =$06     ?  SYMSUB  =$06     ?  WX      =$08     ?  SYMDAT  =$08
+?  SYMLEN  =$09     ?  LF      =$0A     ?  SYMNAM  =$0A     ?  ERR:RTN =$0B
+?  FF      =$0C        CR      =$0D     ?  SYMTBL  =$0D        TOKEN   =$16
+?  TKNADR  =$17        TKNLEN  =$19     ?  EOF     =$1A     ?  LIST    =$1B
+   NXTCHR  =$1C        VALUE   =$1E     ?  SPACE   =$20     ?  MAX:STK =$20
+?  DIGIT   =$21     ?  NOTRSV  =$22     ?  FRAME   =$23     ?  LEVEL   =$25
+   PCODE   =$26     ?  P       =$26        PNTR    =$26     ?  ACT:PCDA=$28
+?  DISPL   =$2A     ?  OFFSET  =$2C     ?  OPND    =$2E     ?  DCODE   =$31
+   ENDSYM  =$32        T       =$32     ?  TMP:PNTR=$32     ?  ARG     =$34
+?  PROMPT  =$35     ?  WORKD   =$36     ?  ERRNO   =$38     ?  RTNADR  =$39
+?  BSAVE   =$3B     ?  WORK    =$3C     ?  PRCITM  =$3E     ?  DSPWRK  =$40
+?  PFLAG   =$42        EPNTR   =$43        BASE    =$45        TO      =$45
+?  DATA    =$47        RUNNING =$49     ?  UPR:CASE=$4A        SCE:LIM =$4B
+?  FUNCTION=$4B     ?  SPRITENO=$4C        STK:USE =$4D     ?  VOICENO =$4D
+   SYMITM  =$4E        FROM    =$4E     ?  SYNTAX  =$50     ?  CHK:ARY =$51
+?  SECRET  =$52        VAL:CMP =$53        CTRLC:RT=$54     ?  END:PCD =$56
+   REGB    =$58     ?  REG2B   =$59     ?  LEFTCOL =$5A        SIGN    =$5B
+   TEMP    =$5C     ?  CALL    =$5E     ?  COUNT   =$60     ?  LNCNT   =$61
+?  LS      =$62     ?  PCSVD   =$63     ?  FIRST   =$65     ?  DBGTYP  =$66
+?  DBGFLG  =$67     ?  DEFP    =$68     ?  DEFS    =$6A        DATTYP  =$6C
+?  DOS:FLG =$6C        A5      =$6D     ?  MASK    =$6D     ?  COLL:REG=$6E
+?  ST      =$90        DFLTN   =$99     ?  QUEUE   =$C6        INDX    =$C8
+   LXSP    =$C9     ?  BLNSW   =$CC     ?  BLNON   =$CF        CRSW    =$D0
+?  BASL    =$D1        CH      =$D3     ?  NEW:STK =$FF     ?  STACK   =$0100
+?  KBD:BUF =$0277   ?  HIMEM   =$0283   ?  COLOR   =$0286   ?  HIBASE  =$0288
+?  AUTODN  =$0292   ?  BITNUM  =$0298   ?  BAUDOF  =$0299   ?  RODBS   =$029D
+?  RODBE   =$029E   ?  ENABRS  =$02A1   ?  COUNT1  =$02A7   ?  COUNT2  =$02A8
+?  SYM:USE =$02A9   ?  SAVCUR  =$02AB      BPOINT  =$02B1   ?  CALL:P  =$02B1
+   ECNTR   =$02B1   ?  CALL:A  =$02B2   ?  CALL:X  =$02B3      REP:FROM=$02B3
+?  CALL:Y  =$02B4      REP:TO  =$02B4   ?  REMAIN  =$02B5      REP:LEN =$02B5
+?  PNTR:HI =$02B6      IN:LGTH =$02B7      LENGTH  =$02B8      FROM:ST =$02BA
+?  CNTR    =$02BB      NUM:LINS=$02BC      ED:COM  =$02BE   ?  FNC:VAL =$02C0
+?  XPOSL   =$02C0      TO:LINE =$02C0   ?  XPOSH   =$02C1   ?  YPOS    =$02C2
+   FND:FROM=$02C2      FND:TO  =$02C3      FND:POS =$02C4   ?  LASTP   =$02C5
+?  INCHAR  =$02C7   ?  IO:A    =$02C8   ?  IO:Y    =$02C9   ?  IO:X    =$02CA
+?  CURR:CHR=$02CB   ?  HEX:WK  =$02CC   ?  STK:AVL =$02CF   ?  STK:PAGE=$02D0
+?  STK:WRK =$02D1   ?  STK:RT  =$02D2   ?  BEG:STK =$02D4   ?  XSAVE   =$02D5
+?  RES     =$02D6      MCAND   =$02D9   ?  DIVISOR =$02D9   ?  DVDN    =$02DC
+?  RMNDR   =$02DF   ?  TEMP1   =$02E0   ?  BIN:WRK =$02E2   ?  ASC:WRK =$02E5
+?  DEF:PCD =$02EF      REP:SIZE=$02F0      NLN:FLAG=$02F1      Q:FLAG  =$02F2
+   FND:FLG =$02F3      FND:LEN =$02F4   ?  UC:FLAG =$02F5      TRN:FLAG=$02F6
+   GLB:FLAG=$02F7   ?  INT:RTN =$02F8   ?  INT:TEMP=$02FA   ?  INT:TMP1=$02FB
+?  INT:TMP2=$02FC   ?  QT:TGL  =$02FD      QT:SIZE =$02FE   ?  WARM:STR=$0302
+?  CINV    =$0314      INBUF   =$033C      TS      =$8009   ?  SYM:SIZE=$800B
+?  LHB     =$800C   ?  RHB     =$800D      QUOT:SYM=$800E      DELIMIT =$800F
+?  PR:CHAN =$8010   ?  DISK:CHN=$8011      P1      =$8013      V1      =$8013
+?  INIT    =$8013   ?  GETNEXT =$8016   ?  COMSTL  =$8019   ?  ISITHX  =$801C
+   ISITAL  =$801F      ISITNM  =$8022   ?  CHAR    =$8025   ?  GEN2:B  =$8028
+?  DISHX   =$802B   ?  ERROR   =$802E   ?  GETCHK  =$8031   ?  CHKTKN  =$8034
+?  GENNOP  =$8037   ?  GENADR  =$803A   ?  GENNJP  =$803D   ?  GENNJM  =$8040
+?  TKNWRK  =$8043   ?  SEARCH  =$8046   ?  ADDSYM  =$8049   ?  SPARE2  =$804C
+?  FIXAD   =$804F   ?  PSHWRK  =$8052   ?  PULWRK  =$8055      PC      =$8058
+   PT      =$805B      PL      =$805E      TOKEN1  =$8061      GETANS  =$8064
+   PUTSP   =$8067   ?  DISPAD  =$806A      CROUT   =$806D   ?  SHLVAL  =$8070
+   GET:NUM =$8073   ?  GET:HEX =$8076   ?  FND:ENQ =$8079   ?  PAUSE   =$807C
+?  HOME    =$807F   ?  RDKEY   =$8082      P2      =$8DD4      V2      =$8DD4
+   TKNJMP  =$8E10      P3      =$992E      V3      =$992E   ?  START   =$992E
+   RESTART =$9931      DSP:BIN =$9934      ST:CMP  =$9937      ST:SYN  =$993A
+?  DEBUG   =$993D      ST:EDI  =$9940      ST:FIL  =$9943   ?  BELL1X  =$9946
+   P4      =$A380   ?  INTERJ  =$A380      P5      =$B384      GT:NO:EM=$B393
+   GET:ERR1=$B396      DEL:ERR1=$B3AE      FULL:ERR=$B3B1      MOD:QN1 =$B3B4
+   DEL:QN1 =$B3BC      DEL:QN2 =$B3C4      DEL     =$B3CB      HELP:1  =$B3D4
+?  HELP:2  =$B3D5   ?  HELP:3  =$B3E8   ?  HELP:4  =$B3E9   ?  HELP:5  =$B3EB
+?  HELP:5A =$B3F7   ?  HELP:6  =$B408   ?  HELP:7  =$B413   ?  HELP:8  =$B41F
+?  HELP:9  =$B42B   ?  HELP:9A =$B42D   ?  HELP:10 =$B444      FND:ERR1=$B446
+   ED:TBL  =$B449      EDITOR  =$B46B      GET:COM =$B473      GET:C1  =$B47F
+   NLIST   =$B4AA      HELP    =$B4B2      PRT:HELP=$B4BB      GET:LINE=$B4CF
+   GET:LIN9=$B4E1      GET:LIN8=$B4EB      INSERT  =$B4F0   ?  IN:2    =$B4F0
+   IN:5    =$B4F8      IN:10   =$B4FB      IN:11   =$B508      IN:22   =$B523
+   INST:TXT=$B53E      IN:13   =$B57E      GET:NO  =$B58F      GET:NO:2=$B59D
+   GT:NO:ER=$B5A9      GET:NO:5=$B5B2      FIND:LN =$B5CE      FL:LOOP =$B5E9
+   FL:5    =$B5EC      FL:10   =$B5F3      FL:15   =$B5FC      FIND:END=$B60B
+   FE:5    =$B615      FE:10   =$B623      FE:15   =$B629      MV:TXT:L=$B632
+   MV:5    =$B635      MV:10   =$B64D      MV:TXT:R=$B657      MVR:5   =$B67B
+   MVR:10  =$B693      ZRO:CNTR=$B69F      INC:ECNTR=$B6AA      INC:C:5 =$B6B2
+   INC:PNTR=$B6B3      INC:5   =$B6B9      MODIFY  =$B6BA      MOD:10  =$B6C0
+   MOD:20  =$B6D2      DELETE  =$B6DA      DEL:20  =$B6E0      DEL:45  =$B717
+   DEL:50  =$B72E      DEL:52  =$B732      DEL:55  =$B74A      DEL:60  =$B755
+   PUT:NO  =$B762      LISTLNS =$B773      LIS:5   =$B782      LIS:10  =$B79D
+   LIS:20  =$B7A3      LIS:31  =$B7B3      LIS:33  =$B7B9      LIS:33A =$B7C7
+   LIS:34  =$B7DB      LIS:34A =$B7E9      LIS:35  =$B7F0      LIS:36  =$B7F4
+   LIS:37  =$B804      LIS:38  =$B81F      LIS:38A =$B834      LIS:38B =$B837
+   LIS:39  =$B83A      LIS:45  =$B857   ?  LIS:46  =$B858   ?  LIS:47  =$B866
+   LIS:48  =$B874      LIS:49  =$B87D      LIS:ERR =$B886      LIS:50  =$B889
+   LIS:55  =$B892      DISPLAY =$B897   ?  DIS:5   =$B899   ?  DIS:5:OK=$B89E
+   DIS:WRAP=$B8B0      DIS:WR1 =$B8BB      DIS:RTS =$B8BE      DIS:15  =$B8BF
+   DIS:0   =$B8CD      DIS:0A  =$B8D2      DIS:1   =$B8D5      DIS:2   =$B8DB
+   DIS:2C  =$B8F1      DIS:16J =$B8F9      DIS:2A  =$B8FC      DIS:2AB =$B90B
+   DIS:3   =$B914      DIS:35  =$B920      DIS:35A =$B928      DIS:36A =$B937
+   DIS:36  =$B941      DIS:70  =$B94F      DIS:40  =$B95F      DIS:45  =$B974
+   DIS:60  =$B97D      DIS:80  =$B9AD      DIS:4   =$B9B5      DIS:16  =$B9CA
+   DIS:17  =$B9D0      DIS:20  =$B9D2      FND:END =$B9DE      FND:RTS =$BA02
+   FND:END2=$BA03      RPLCD   =$BA0A      FND     =$BA14      PT:LN:NO=$BA1B
+   PT:LN:10=$BA21      PUT:LINE=$BA26      LT:1000 =$BA3C      PT:GO   =$BA4B
+   PT:FIN  =$BA57      GETRANGE=$BA5D      DIS:4A  =$BA64      GETR:5  =$BA65
+   GETR:10 =$BA6F      GETR:15 =$BA75      GETR:16 =$BA83      GETR:20 =$BA8D
+   GETR:22 =$BA9B      GETR:25 =$BAA1      GETR:30 =$BAB6      GETR:31 =$BABA
+   TO:ADDR =$BABF      FRM:ADDR=$BAD3      TIDY:AL =$BAE7      TIDY:RS =$BB07
+   TIDY:RS1=$BB12      TIDY:RS2=$BB1E      TIDY    =$BB23      TIDY:ENT=$BB29
+   TIDY:NXT=$BB3C      TIDY:NX1=$BB4D      TIDY:CH =$BB67      TIDY:LF =$BB6C
+   TIDY:SPJ=$BB72      TIDY:QT =$BB75      TIDY:CR =$BB7D   ?  TIDY:OK =$BB87
+   TIDY:NSP=$BB93      TIDY:END=$BB97      TIDY:E2 =$BBAD      TIDY:DLE=$BBB1
+   TIDY:DL3=$BBCD      TIDY:DL2=$BBD3      TIDY:SP =$BBE6      TIDY:GQT=$BBF8
+   TIDY:BMP=$BBFD      TIDY:SPC=$BC07      TIDY:CNT=$BC11      TIDY:DNE=$BC1F
+   TIDY:IGN=$BC32      INC:FROM=$BC38      RTS1    =$BC3E      INC:TO  =$BC3F
+   DEC:TO  =$BC46      DEC:TO:9=$BC50      DEC:FROM=$BC53      CMP:END =$BC5E
+   CMP:END9=$BC68      WRAP    =$BC69      GET7:A  =$BC73      GETLNZ  =$BC76
+   GETLN   =$BC76      GETLN1  =$BC76      GET4    =$BC8D      GET1    =$BC91
+   GET:3   =$BC9F   ?  P6      =$BCB8   ?  P:STACK =$CED0   ?  S:ANIMCT=$CED8
+?  S:ANIMPS=$CEE0   ?  S:ANIMCC=$CEE8   ?  S:ANIMFM=$CEF0   ?  S:POINTR=$CEF8
+?  SID:IMG =$CF7C   ?  S:ACTIVE=$CF98   ?  S:XPOS  =$CFA0   ?  S:YPOS  =$CFB8
+?  S:XINC  =$CFC8   ?  S:YINC  =$CFE0   ?  S:COUNT =$CFF0   ?  VIC     =$D000
+?  BORDER  =$D020   ?  BKGND   =$D021   ?  SID     =$D400   ?  CIA1    =$DC00
+?  CIA2    =$DD00   ?  DATAREG =$DD01   ?  DDRB    =$DD03   ?  FLAG    =$DD0D
+?  CINT    =$FF81   ?  IOINIT  =$FF84   ?  RAMTAS  =$FF87   ?  RESTOR  =$FF8A
+?  SETMSG  =$FF90   ?  MEMTOP  =$FF99   ?  UNTKL   =$FFAB   ?  UNTLK   =$FFAB
+?  UNLSN   =$FFAE   ?  READST  =$FFB7   ?  SETLFS  =$FFBA   ?  SETNAM  =$FFBD
+?  OPEN    =$FFC0   ?  CLOSE   =$FFC3   ?  CHKIN   =$FFC6   ?  CHKOUT  =$FFC9
+?  CLRCHN  =$FFCC      CHRIN   =$FFCF      COUT    =$FFD2   ?  CHROUT  =$FFD2
+?  LOAD    =$FFD5   ?  SAVE    =$FFD8      STOP    =$FFE1   ?  GETIN   =$FFE4
+?  CLALL   =$FFE7   ?  PLOT    =$FFF0   
+
